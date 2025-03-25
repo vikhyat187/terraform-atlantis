@@ -24,3 +24,4 @@ resource "docker_container" "nginx" {
     }
 }
 
+resource "null_resource" "example" {}
